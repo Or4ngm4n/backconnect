@@ -28,7 +28,7 @@ Commands works with shell_exec() function
 */
 ob_start();
 $server_ip  = $_SERVER['SERVER_ADDR'];
-$your_ip   = getenv('REMOTE_ADDR');
+$your_ip   = getenv('REMOTE_ADDR'); #
 $your_port = 443;
 $timeout   = 5;
 
